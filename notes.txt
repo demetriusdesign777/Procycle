@@ -1,0 +1,50 @@
+/*** Css Transitions Triggered by JavaScript ***/
+
+Using Css transitions with JavaScript is awesome. You can declare a 
+transition in Css, then trigger it with a JavaScript event or just
+plain JavaScript. Let's say I wanted to transition the width a div.
+The transition property is the width, the duration is 0.6s, the 
+timing function is ease-out & the delay is 1s. 
+
+codeimage
+
+In the JavaScript, I would change the width of the div & the transition
+would play when the browser is reloaded.
+
+codeImage
+
+/* Transitions on events */
+
+You can trigger transitions on JavaScript events. You grab the last 
+example and trigger the width property on click.
+
+codeImage
+
+/* Triggering multiple transitions */
+
+Let's say we have two transitions we want to trigger on click. The
+width & the background color. We would declare both transitions in the
+css code.
+
+codeImage
+
+Then with JavaScript, specify what we want the properties new values 
+to be on click.
+
+codeImage
+
+/* Transitioning a property by clicking another element */
+
+You don't have to click the element that the transition is on to trigger.
+You can click a completely different element for any transition you
+want to do. Let's say we have a button with the div we were using before.
+
+codeImage
+
+When I click the button, the width & the background color of the div will
+transition.
+
+codeImage
+
+This can make for some really cool transitions. The best part is it's
+suprisingly easy. 
